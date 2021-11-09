@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #202124;
+    color: #e8eaed;
+}
+img {
+    width: 35%;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #e8eaed;
+    text-decoration: none;
+}
+.flex{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.floating-btn{
+    width: 56px;
+    height: 56px;
+    background-color: #3c4043;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #9aa0a6;
+    font-size: 40px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    transition: background 0.25s;
+}
+.floating-btn:hover{
+    background-color: #6c747a;
+    color: #d1d4d6;
+}
+.floating-btn:active{
+    background-color: #5f6368;
+    color: #e8eaed;
+}
